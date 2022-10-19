@@ -10,6 +10,7 @@ body {
     "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #222831;
 }
 
 code {
@@ -52,6 +53,13 @@ code {
   color: rgb(255, 255, 255);
 }
 
+.tabContainerR .header_tab {
+  font-size: 1.2rem;
+  margin-right: 2rem;
+  text-decoration: inherit;
+  color: rgb(255, 255, 255);
+}
+
 .tabContainer {
   line-height: 1.5;
   display: flex;
@@ -60,6 +68,16 @@ code {
   font-family: "Outfit";
   margin: auto;
   width: 410px;
+}
+
+.tabContainerR {
+  line-height: 1.5;
+  display: flex;
+  tab-size: 4;
+  align-items: center;
+  font-family: "Outfit";
+  width: 410px;
+  justify-content: right;
 }
 
 @media only screen and (max-width: 1260px) {
