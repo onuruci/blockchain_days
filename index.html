@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Blockchain Dayz</title>
+    <meta name="description" content="A simple HTML5 Template for new projects.">
+    <meta name="author" content="SitePoint">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Outfit:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;800;900&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="/favicon.ico">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+    <link rel="stylesheet" href="css/styles.css?v=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("Dec 23, 2022 15:37:25").getTime();
+
+        // Update the count down every 1 second
+        var x = setInterval(function () {
+
+            // Get today's date and time
+            var now = new Date().getTime();
+
+            // Find the distance between now and the count down date
+            var distance = countDownDate - now;
+
+            // Time calculations for days, hours, minutes and seconds
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            // Display the result in the element with id="demo"
+            document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+                + minutes + "m " + seconds + "s ";
+
+            // If the count down is finished, write some text
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("demo").innerHTML = "EXPIRED";
+            }
+        }, 1000);
+    </script>
+
+</head>
+
+<body>
+    <div class="App">
+        <section id="light-blue">
+            <div id="header">
+                <div class="tabContainer">
+                    <a class="header_tab" href="#about">About</a>
+                    <a class="header_tab" href="#schedule">Schedule</a>
+                    <a class="header_tab" href="#speakers">Speakers</a>
+                </div>
+                <a href="#">
+                    <img src="images/metublockchain.png" alt="" srcset="" class="logo" />
+                </a>
+                <div class="tabContainer">
+                    <a class="header_tab" href="#">Sponsors</a>
+                    <a class="header_tab" href="#">Venue</a>
+                    <a class="header_tab" href="#">Concert</a>
+                    <a class="header_tab" href="#">FAQ</a>
+                </div>
+            </div>
+            <div id="namer">
+                <div id="nameContainer">
+                    <h1 id="metu">METU</h1>
+                    <h1 id="blockchain">Blockchain Dayz</h1>
+                </div>
+            </div>
+            <div id="dateapply">
+                <div class="date">23-25 December, 2022</div>
+                <!-- <a href="#">
+                    <button class="applyButton">Apply to Event</button>
+                </a> -->
+                <a href="#">
+                    <button class="applyButton">
+                        <p id="demo"></p>
+                    </button>
+                </a>
+                
+            </div>
+        </section>
+        <section id="about">
+            <div class="aboutContainer">
+                <h2 class="subheader">
+                    About Blockchain Days
+                </h2>
+                <p class="aboutexplanation">
+                    ODTU Blockchain presents Blockchain Dayz. Blockchain Dayz aims to gather diffrent communities and experienced people in one event.
+                    Through two days we will be listening to succesfull people around web3 community and building new networks. This will be the largest
+                    blockchain event and we as ODTU Blockchain are excited, proud to be organizing it. For further announcement keep checking our website.
+                </p>
+            </div>
+        </section>
+        <!-- <section id="schedule">
+            <div class="scheduleSection">
+                <h2 class="scheduleHeader">Schedule</h2>
+                <div class="dayHeader">
+                    <div class="daydate">11 June</div>
+                </div>
+                <div class="timer">
+                    <div class="agenda">
+                        <div class="time">09.00 CEST</div>
+                        <div class="relative">
+                            <div class="agendaName">Hakan Yalçınsoy</div>
+                            <div class="agendaExplanation">Future of Money</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="timer">
+                    <div class="agenda">
+                        <div class="time">09.00 CEST</div>
+                        <div class="relative">
+                            <div class="agendaName">Hakan Yalçınsoy</div>
+                            <div class="agendaExplanation">Future of Money</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="timer">
+                    <div class="agenda">
+                        <div class="time">09.00 CEST</div>
+                        <div class="relative">
+                            <div class="agendaName">Hakan Yalçınsoy</div>
+                            <div class="agendaExplanation">Future of Money</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="timer">
+                    <div class="agenda">
+                        <div class="time">09.00 CEST</div>
+                        <div class="relative">
+                            <div class="agendaName">Hakan Yalçınsoy</div>
+                            <div class="agendaExplanation">Future of Money</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="timer">
+                    <div class="agenda">
+                        <div class="time">09.00 CEST</div>
+                        <div class="relative">
+                            <div class="agendaName">Hakan Yalçınsoy</div>
+                            <div class="agendaExplanation">Future of Money</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="timer">
+                    <div class="agenda">
+                        <div class="time">09.00 CEST</div>
+                        <div class="relative">
+                            <div class="agendaName">Hakan Yalçınsoy</div>
+                            <div class="agendaExplanation">Future of Money</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="timer">
+                    <div class="agenda">
+                        <div class="time">09.00 CEST</div>
+                        <div class="relative">
+                            <div class="agendaName">Hakan Yalçınsoy</div>
+                            <div class="agendaExplanation">Future of Money</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="timer">
+                    <div class="agenda">
+                        <div class="time">09.00 CEST</div>
+                        <div class="relative">
+                            <div class="agendaName">Hakan Yalçınsoy</div>
+                            <div class="agendaExplanation">Future of Money</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="timer">
+                    <div class="agenda">
+                        <div class="time">09.00 CEST</div>
+                        <div class="relative">
+                            <div class="agendaName">Hakan Yalçınsoy</div>
+                            <div class="agendaExplanation">Future of Money</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dayHeader">
+                    <div class="daydate">12 June</div>
+                </div>
+                <div class="timer">
+                    <div class="agenda">
+                        <div class="time">09.00 CEST</div>
+                        <div class="relative">
+                            <div class="agendaName">Hakan Yalçınsoy</div>
+                            <div class="agendaExplanation">Future of Money</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="timer">
+                    <div class="agenda">
+                        <div class="time">09.00 CEST</div>
+                        <div class="relative">
+                            <div class="agendaName">Hakan Yalçınsoy</div>
+                            <div class="agendaExplanation">Future of Money</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="timer">
+                    <div class="agenda">
+                        <div class="time">09.00 CEST</div>
+                        <div class="relative">
+                            <div class="agendaName">Hakan Yalçınsoy</div>
+                            <div class="agendaExplanation">Future of Money</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="timer">
+                    <div class="agenda">
+                        <div class="time">09.00 CEST</div>
+                        <div class="relative">
+                            <div class="agendaName">Hakan Yalçınsoy</div>
+                            <div class="agendaExplanation">Future of Money</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="timer">
+                    <div class="agenda">
+                        <div class="time">09.00 CEST</div>
+                        <div class="relative">
+                            <div class="agendaName">Hakan Yalçınsoy</div>
+                            <div class="agendaExplanation">Future of Money</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="timer">
+                    <div class="agenda">
+                        <div class="time">09.00 CEST</div>
+                        <div class="relative">
+                            <div class="agendaName">Hakan Yalçınsoy</div>
+                            <div class="agendaExplanation">Future of Money</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="speakers">
+            <div class="speakersDiv">
+                <h2 class="scheduleHeader">Speakers</h2>
+                <div class="speakersContainer">
+                    <a href="#" class="singleSpeaker">
+                        <img class="speakerImg" src="images/emin_gun.jpg" alt="" srcset="" />
+                        <div class="speakerName">Emin Gün Sirer</div>
+                        <div class="speakerCompany">Ava Labs</div>
+                    </a>
+                    <a href="#" class="singleSpeaker">
+                        <img class="speakerImg" src="images/hakan_yal.jpg" alt="" srcset="" />
+                        <div class="speakerName">Hakan Yalçınsoy</div>
+                        <div class="speakerCompany">Lyteria</div>
+                    </a>
+                    <a href="#" class="singleSpeaker">
+                        <img class="speakerImg" src="images/hakan_yal.jpg" alt="" srcset="" />
+                        <div class="speakerName">Hakan Yalçınsoy</div>
+                        <div class="speakerCompany">Lyteria</div>
+                    </a>
+                    <a href="#" class="singleSpeaker">
+                        <img class="speakerImg" src="images/hakan_yal.jpg" alt="" srcset="" />
+                        <div class="speakerName">Hakan Yalçınsoy</div>
+                        <div class="speakerCompany">Lyteria</div>
+                    </a>
+                    <a href="#" class="singleSpeaker">
+                        <img class="speakerImg" src="images/hakan_yal.jpg" alt="" srcset="" />
+                        <div class="speakerName">Hakan Yalçınsoy</div>
+                        <div class="speakerCompany">Lyteria</div>
+                    </a>
+                    <a href="#" class="singleSpeaker">
+                        <img class="speakerImg" src="images/hakan_yal.jpg" alt="" srcset="" />
+                        <div class="speakerName">Hakan Yalçınsoy</div>
+                        <div class="speakerCompany">Lyteria</div>
+                    </a>
+                    <a href="#" class="singleSpeaker">
+                        <img class="speakerImg" src="images/hakan_yal.jpg" alt="" srcset="" />
+                        <div class="speakerName">Hakan Yalçınsoy</div>
+                        <div class="speakerCompany">Lyteria</div>
+                    </a>
+                    <a href="#" class="singleSpeaker">
+                        <img class="speakerImg" src="images/hakan_yal.jpg" alt="" srcset="" />
+                        <div class="speakerName">Hakan Yalçınsoy</div>
+                        <div class="speakerCompany">Lyteria</div>
+                    </a>
+                    <a href="#" class="singleSpeaker">
+                        <img class="speakerImg" src="images/hakan_yal.jpg" alt="" srcset="" />
+                        <div class="speakerName">Hakan Yalçınsoy</div>
+                        <div class="speakerCompany">Lyteria</div>
+                    </a>
+                    <a href="#" class="singleSpeaker">
+                        <img class="speakerImg" src="images/hakan_yal.jpg" alt="" srcset="" />
+                        <div class="speakerName">Hakan Yalçınsoy</div>
+                        <div class="speakerCompany">Lyteria</div>
+                    </a>
+                </div>
+            </div>
+        </section> -->
+    </div>
+</body>
+
+</html>
