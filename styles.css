@@ -117,7 +117,7 @@ code {
   font-size: min(21vw, 12rem);
   display: block;
   margin-bottom: -1rem;
-  margin-top: 5rem;
+  margin-top: 7rem;
   opacity: 70%;
 }
 
@@ -173,7 +173,7 @@ code {
   padding-top: 4rem;
   padding-bottom: 6rem;
   background-color: #222831;
-  margin-top: 0;
+  margin-top: 8rem;
 }
 
 .aboutContainer {
@@ -253,10 +253,10 @@ code {
 }
 
 .time {
-  width: 10rem;
+  width: 7rem;
   font-weight: 600;
   font-size: 1.5rem;
-  margin-bottom: 0.5rem;
+  margin: auto;
 }
 
 .relative {
@@ -379,3 +379,103 @@ code {
   font-size: 1.25rem;
   color: rgb(204 230 255);
 }
+
+#sponsors {
+  margin-top: -2rem;
+  padding-left: 1rem;
+}
+
+.sponsorDiv {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  max-width: 1280px;
+  margin: auto;
+  color: rgb(255, 255, 255);
+  font-family: "Outfit", "sans-serif";
+  
+}
+
+.sponsorContainer {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+@media only screen and (max-width: 1380px) {
+  .sponsorContainer {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media only screen and (max-width: 1180px) {
+  .sponsorContainer {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.75rem;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .sponsorContainer {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 1.75rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .sponsorDiv {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+}
+
+.singleSponsor {
+  padding: 1.5rem;
+  background-color: rgba(100, 135, 175, 0.546);
+  border-radius: 0.5rem;
+  text-decoration: none;
+  tab-size: 3;
+  margin: 1rem;
+  max-width: 280px;
+  max-height: 100px;
+  position: relative;
+
+  
+}
+
+@media only screen and (max-width: 1380px) {
+  .singleSponsor {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .singleSponsor {
+    max-width: 220px;
+  }
+}
+
+.sponsorLogo{
+  border-radius: 10rem;
+  width: 35%;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  
+}
+
+
+.sponsorName {
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+  margin-left: 7rem;
+  margin-top: -5rem;
+  position: absolute;
+}
+
+.sponsorHeader {
+  font-size: min(8vw, 4rem);
+}
+
