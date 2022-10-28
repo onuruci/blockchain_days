@@ -26,6 +26,7 @@ code {
   tab-size: 4;
 }
 
+
 #light-blue {
   background-color: #393e46;
   display: flex;
@@ -55,9 +56,69 @@ code {
 
 .tabContainerR .header_tab {
   font-size: 1.2rem;
+  margin-left: 0rem;
   margin-right: 2rem;
   text-decoration: inherit;
   color: rgb(255, 255, 255);
+}
+
+.bn29 {
+  border: none;
+  outline: none;
+  color: white;
+  text-decoration: inherit;
+  font-style: 1.2rem;
+  position: relative;
+  top: 70px;
+  z-index: 1;
+  cursor: pointer;
+  background: none;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.45);
+}
+
+.bn29:before,
+.bn29:after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 10rem;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: 155%;
+  height: 155%;
+  content: "";
+  z-index: -2;
+  background-size: 400% 400%;
+  background: linear-gradient(
+    60deg,
+    #f79533,
+    #f37055,
+    #ef4e7b,
+    #a166ab,
+    #5073b8,
+    #1098ad,
+    #07b39b,
+    #6fba82
+  );
+}
+
+.bn29:before {
+  -webkit-filter: blur(7px);
+  filter: blur(7px);
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  -webkit-animation: pulse 10s infinite ease;
+  animation: pulse 10s infinite ease;
+}
+
+.bn29:after {
+  -webkit-filter: blur(0.3px);
+  filter: blur(0.3px);
+}
+
+.bn29:hover:before {
+  width: 115%;
+  height: 115%;
 }
 
 .tabContainer {
@@ -90,7 +151,7 @@ code {
 }
 
 .logo {
-  max-height: 4rem;
+  max-height: 8rem;
   margin: auto;
 }
 
@@ -478,4 +539,5 @@ code {
 .sponsorHeader {
   font-size: min(8vw, 4rem);
 }
+
 
