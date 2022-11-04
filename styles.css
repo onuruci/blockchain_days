@@ -61,6 +61,12 @@ code {
   color: var(--light-red);
 }
 
+.sponsorus {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: none;
+}
+
 .gradient {
   background: rgb(252, 242, 215);
   background: linear-gradient(
@@ -75,6 +81,7 @@ code {
   color: var(--white) !important;
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
+  margin-left: 0 !important;
 }
 
 .tabContainerR .header_tab {
@@ -164,15 +171,6 @@ code {
   justify-content: right;
 }
 
-@media only screen and (max-width: 1260px) {
-  .tabContainer {
-    display: none;
-  }
-  .tabContainerR {
-    display: none;
-  }
-}
-
 .logo {
   max-height: 4rem;
   margin: auto;
@@ -212,6 +210,22 @@ code {
   padding: 0;
   line-height: min(16vw, 8.5rem);
   font-family: "Montserrat";
+}
+
+@media only screen and (max-width: 1260px) {
+  .tabContainer {
+    display: none;
+  }
+  .tabContainerR {
+    display: none;
+  }
+  .sponsorus {
+    display: block;
+  }
+
+  #metu {
+    margin-top: 18vh;
+  }
 }
 
 #bdays {
