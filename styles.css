@@ -61,6 +61,22 @@ code {
   color: var(--light-red);
 }
 
+.gradient {
+  background: rgb(252, 242, 215);
+  background: linear-gradient(
+    72deg,
+    rgb(40, 131, 228) 2%,
+    rgb(235, 17, 61) 73%,
+    rgb(238, 203, 108) 100%
+  );
+  transition-duration: 0.3s;
+  transition-property: transform;
+  transition: all 0.3s;
+  color: var(--white) !important;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
 .tabContainerR .header_tab {
   font-size: 1.2rem;
   margin-left: 0rem;
