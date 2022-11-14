@@ -14,13 +14,13 @@ body {
 }
 
 body {
-  --bg-color: #020C16;
+  --bg-color: #020c16;
   --light-red: #e20b19;
-  --light-blue: #7091D4;
+  --light-blue: #7091d4;
   --white: #ffffff;
   --teams-map-left-side: #011425;
   --teams-map-right-side: #a40d33;
-  --dark-blue: rgb(120, 145, 200); 
+  --dark-blue: rgb(120, 145, 200);
 }
 
 code {
@@ -69,7 +69,6 @@ code {
   margin-bottom: 2rem;
   display: none;
   color: var(--bg-color);
-
 }
 
 .gradient {
@@ -275,6 +274,12 @@ code {
   margin-top: 2rem;
 }
 
+@media only screen and (max-width: 600px) {
+  .date {
+    font-size: 1.6rem;
+  }
+}
+
 .applyButton {
   width: 24rem;
   background-color: #00adb5;
@@ -292,7 +297,9 @@ code {
 
 @media only screen and (max-width: 600px) {
   .applyButton {
-    width: 18rem;
+    width: 14rem;
+    font-size: 1.4rem;
+    height: 90px;
   }
 }
 
@@ -301,6 +308,13 @@ code {
   padding-bottom: 6rem;
   background-color: var(--bg-color);
   margin-top: 8rem;
+}
+
+@media only screen and (max-width: 600px) {
+  #about {
+    margin-top: 2rem;
+    padding-top: 2rem;
+  }
 }
 
 .aboutContainer {
@@ -334,18 +348,37 @@ code {
   letter-spacing: 0.1rem;
 }
 
-.scheduleSection {
-  max-width: 600px;
-  padding-left: 1rem;
-  padding-right: 2rem;
-  margin-left: 5rem;
+#schedule {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
   color: rgb(255, 255, 255);
   font-family: "Outfit", "sans-serif";
   tab-size: 4;
 }
 
+@media only screen and (max-width: 900px) {
+  #schedule {
+    padding: 1rem;
+  }
+}
 
+.scheduleSection {
+  display: flex;
+  flex-direction: row;
+}
 
+@media only screen and (max-width: 900px) {
+  .scheduleSection {
+    flex-direction: column;
+    padding: 1rem;
+  }
+}
+
+.scheduleday {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
 
 .scheduleHeader {
   font-size: min(8vw, 4rem);
@@ -411,6 +444,31 @@ code {
   font-weight: 500;
   width: 85%;
   margin-bottom: 0.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .time {
+    width: 6rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin: auto;
+  }
+
+  .agendaName {
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 100%;
+  }
+
+  .agendaExplanation {
+    font-size: 1rem;
+    font-weight: 500;
+    width: 100%;
+  }
+
+  .relative {
+    padding: 1rem;
+  }
 }
 
 #speakers {
