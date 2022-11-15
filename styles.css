@@ -525,6 +525,7 @@ code {
   tab-size: 4;
   margin: 1rem;
   max-width: 280px;
+  background-color: #DCE6F2;
 }
 
 @media only screen and (max-width: 1380px) {
@@ -563,12 +564,12 @@ code {
 .speakerName {
   font-weight: 600;
   font-size: 1.5rem;
-  color: rgb(255, 255, 255);
+  color: #A12500;
 }
 
 .speakerCompany {
   font-size: 1.25rem;
-  color: rgb(204 230 255);
+  color: #020C16;
 }
 
 #sponsors {
