@@ -480,6 +480,16 @@ code {
   padding-left: 1rem;
 }
 
+#sponsors {
+  margin-top: -2rem;
+  padding-left: 1rem;
+}
+
+#participating {
+  margin-top: -2rem;
+  padding-left: 1rem;
+}
+
 .speakersDiv {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -552,8 +562,6 @@ code {
   max-width: 100%;
   height: auto;
   display: block;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
 }
 
 .enemyImg {
@@ -673,7 +681,7 @@ code {
 #footer {
   width: 100%;
   background-color: #f2f2f2;
-  margin-top: 12rem;
+  margin-top: 18rem;
 }
 
 .footer_cont {
@@ -698,6 +706,9 @@ code {
 }
 
 @media only screen and (max-width: 900px) {
+  #footer {
+    margin-top: 8rem;
+  }
   .footer_header {
     font-size: 2.5rem;
   }
@@ -713,4 +724,111 @@ code {
   .footer_writing {
     font-size: 0.8rem;
   }
+}
+
+.sponsorimg {
+  width: 100%;
+}
+
+.spsimgv {
+  max-height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gearback {
+  background-color: white;
+}
+
+.spons {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  max-height: 300px;
+  margin-top: 6rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  .sponsorimg {
+    max-width: 600px;
+  }
+
+  .spsimgv {
+    max-height: 320px;
+  }
+
+  .spons {
+    max-width: 600px;
+    margin-top: 4rem;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .sponsorimg {
+    max-width: 400px;
+  }
+
+  .spsimgv {
+    max-height: 200px;
+  }
+
+  .spons {
+    max-width: 400px;
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .sponsorimg {
+    max-width: 280px;
+  }
+
+  .spsimgv {
+    max-height: 120px;
+  }
+
+  .spons {
+    max-width: 280px;
+  }
+}
+
+.mtop {
+  margin-top: 12rem;
+}
+
+.spclass {
+  margin-top: 4rem !important;
+}
+
+.spswriting {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.8rem;
+  font-size: 4rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  .spswriting {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .spswriting {
+    font-size: 1.2rem;
+  }
+  .mtop {
+    margin-top: 3rem;
+  }
+}
+
+.spshead {
+  color: #e9c601;
+}
+
+.alcenter {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
