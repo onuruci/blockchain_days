@@ -832,3 +832,18 @@ code {
   margin-right: auto;
   text-align: center;
 }
+
+.footer_logos {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 300px;
+  margin-top: 2rem;
+}
+
+.footerimg {
+  margin-left: auto;
+  margin-right: auto;
+}
