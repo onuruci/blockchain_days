@@ -241,7 +241,7 @@ code {
 }
 
 #bdays {
-  color: lightblue;
+  color: #7091d4;
   font-size: min(9vw, 8rem);
   font-family: "Montserrat";
   line-height: min(16vw, 8.5rem);
@@ -330,7 +330,7 @@ code {
   font-size: min(8vw, 4rem);
   margin-left: 0.2rem;
   margin-top: 0;
-  color: lightblue;
+  color: #7091d4;
 }
 
 .aboutexplanation {
@@ -352,7 +352,7 @@ code {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  color: rgb(255, 255, 255);
+  color: #7091d4;
   font-family: "Outfit", "sans-serif";
   tab-size: 4;
 }
@@ -382,6 +382,7 @@ code {
 
 .scheduleHeader {
   font-size: min(8vw, 4rem);
+  color: #7091d4;
 }
 
 .dayHeader {
@@ -421,11 +422,12 @@ code {
   font-weight: 600;
   font-size: 1.5rem;
   margin: auto;
+  color: #7091d4;
 }
 
 .relative {
   padding: 1.5rem;
-  background-color: #393e46;
+  background-color: #dce6f2;
   border-radius: 0.5rem;
   width: 100%;
   margin-bottom: 1.5rem;
@@ -437,6 +439,7 @@ code {
   font-weight: 600;
   width: 85%;
   margin-bottom: 0.5rem;
+  color: #020c16;
 }
 
 .agendaExplanation {
@@ -444,6 +447,7 @@ code {
   font-weight: 500;
   width: 85%;
   margin-bottom: 0.5rem;
+  color: #020c16;
 }
 
 @media only screen and (max-width: 600px) {
@@ -525,7 +529,7 @@ code {
   tab-size: 4;
   margin: 1rem;
   max-width: 280px;
-  background-color: #DCE6F2;
+  background-color: #dce6f2;
 }
 
 @media only screen and (max-width: 1380px) {
@@ -564,12 +568,12 @@ code {
 .speakerName {
   font-weight: 600;
   font-size: 1.5rem;
-  color: #A12500;
+  color: #a12500;
 }
 
 .speakerCompany {
   font-size: 1.25rem;
-  color: #020C16;
+  color: #020c16;
 }
 
 #sponsors {
@@ -664,4 +668,49 @@ code {
 
 .sponsorHeader {
   font-size: min(8vw, 4rem);
+}
+
+#footer {
+  width: 100%;
+  background-color: #f2f2f2;
+  margin-top: 12rem;
+}
+
+.footer_cont {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  padding: 2rem;
+}
+
+.footer_header {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #a12500;
+}
+
+.footer_writing {
+  margin-top: 0.7rem;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 900px) {
+  .footer_header {
+    font-size: 2.5rem;
+  }
+  .footer_writing {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .footer_header {
+    font-size: 1.4rem;
+  }
+  .footer_writing {
+    font-size: 0.8rem;
+  }
 }
