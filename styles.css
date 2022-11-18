@@ -72,13 +72,18 @@ code {
 }
 
 .gradient {
-  background: rgb(252, 242, 215);
-  background: linear-gradient(
-    72deg,
-    rgb(40, 131, 228) 2%,
-    rgb(235, 17, 61) 73%,
-    rgb(238, 203, 108) 100%
-  );
+  background: #7091d4;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  transition: all 0.3s;
+  color: var(--white) !important;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  margin-left: 0 !important;
+}
+
+.gradient:hover{
+  background: #f73434;
   transition-duration: 0.3s;
   transition-property: transform;
   transition: all 0.3s;
@@ -282,8 +287,8 @@ code {
 
 .applyButton {
   width: 24rem;
-  background-color: #00adb5;
-  padding: 0.5rem;
+  background-color: #7091d4;
+  padding: 0.2rem;
   border-radius: 0.5rem;
   font-size: 1.8rem;
   font-family: "Outfit";
@@ -291,8 +296,13 @@ code {
   color: rgb(255 255 255);
   cursor: pointer;
   margin: auto;
-  height: 109px;
-  margin-top: 2rem;
+  height: 90px;
+  margin-top: 3rem;
+}
+
+.applyButton:hover {
+  background-color: #ffffff;
+  color: #7091d4;
 }
 
 @media only screen and (max-width: 600px) {
@@ -846,4 +856,15 @@ code {
 .footerimg {
   margin-left: auto;
   margin-right: auto;
+}
+
+.organizedby {
+  margin-top: 30px;
+  font-size: 1rem;
+}
+
+.obt_logo {
+  margin-top: 10px;
+  width: 10rem;
+
 }
