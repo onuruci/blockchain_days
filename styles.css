@@ -82,7 +82,7 @@ code {
   margin-left: 0 !important;
 }
 
-.gradient:hover{
+.gradient:hover {
   background: #f73434;
   transition-duration: 0.3s;
   transition-property: transform;
@@ -865,5 +865,104 @@ code {
 .obt_logo {
   margin-top: 10pxa;
   width: 10rem;
+}
 
+#sponsors {
+  margin-top: 8rem;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#media_partners {
+  margin-top: 8rem;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#participating {
+  margin-top: 8rem;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sponsorsgrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  column-gap: 2rem;
+  row-gap: 2rem;
+  padding: 2rem;
+}
+
+.sponsorsdivv {
+  padding: 1rem;
+  background-color: #dce6f2;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.sponsoricon {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 100%;
+  margin-top: auto;
+}
+
+.sponsorwriting {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 0.5rem;
+  max-width: 12rem;
+  margin-left: auto;
+  margin-right: auto;
+  color: #020c16;
+  padding: 0.5rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  .sponsorsgrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .sponsorsgrid {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .sponsorsgrid {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .sponsorsdivv {
+    flex-direction: column;
+    align-items: center;
+  }
+  .sponsorwriting {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5rem;
+    max-width: 15rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .sponsorwriting {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sponsorsgrid {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
