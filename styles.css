@@ -80,15 +80,12 @@ code {
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   margin-left: 0 !important;
+  border: 2px solid #7091d4;
 }
 
 .gradient:hover {
-  background: #f73434;
-  transition-duration: 0.3s;
-  transition-property: transform;
-  transition: all 0.3s;
-  color: var(--white) !important;
-  padding: 0.5rem 1rem;
+  background: var(--white);
+  color: #7091d4 !important;
   border-radius: 0.5rem;
 }
 
@@ -107,7 +104,6 @@ code {
   text-decoration: inherit;
   color: var(--bg-color);
 }
-
 
 .bn29 {
   border: none;
