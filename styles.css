@@ -90,24 +90,24 @@ code {
   color: var(--white) !important;
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
-  margin-left: 0 !important;
 }
 
 .tabContainerR .header_tab {
   font-size: 1.3rem;
-  margin-left: 1.5rem;
-  margin-right: 2rem;
+  margin-left: 30px;
+  margin-right: 20px;
   text-decoration: inherit;
   color: var(--bg-color);
 }
 
 .tabContainer .header_tab {
   font-size: 1.3rem;
-  margin-left: 1rem;
-  margin-right: 3rem;
+  margin-left: 30px;
+  margin-right: 20px;
   text-decoration: inherit;
   color: var(--bg-color);
 }
+
 
 .bn29 {
   border: none;
