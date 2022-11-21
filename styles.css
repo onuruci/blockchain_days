@@ -2,6 +2,8 @@ html {
   padding: 0;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap");
+
 body {
   width: 100%;
   margin: 0px;
@@ -502,7 +504,7 @@ code {
   max-width: 1280px;
   margin: auto;
   color: rgb(255, 255, 255);
-  font-family: "Outfit", "sans-serif";
+  font-family: "Roboto", sans-serif;
 }
 
 .speakersContainer {
