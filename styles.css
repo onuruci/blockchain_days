@@ -61,8 +61,8 @@ code {
   font-size: 1.3rem;
   margin-left: 2rem;
   text-decoration: inherit;
-  color: var(--bg-color);
   margin-top: 1.5rem;
+  
 }
 
 .sponsorus {
@@ -93,9 +93,12 @@ code {
 .tabContainerR .header_tab {
   font-size: 1.3rem;
   margin-left: 30px;
-  margin-right: 20px;
+  margin-right:20px;
   text-decoration: inherit;
   color: var(--bg-color);
+}
+.tabContainerR .header_tab:hover {
+  color: #e20b19;
 }
 
 .tabContainer .header_tab {
@@ -104,6 +107,9 @@ code {
   margin-right: 20px;
   text-decoration: inherit;
   color: var(--bg-color);
+}
+.tabContainer .header_tab:hover { 
+  color: #e20b19;
 }
 
 .bn29 {
@@ -543,7 +549,6 @@ code {
 
 .singleSpeaker {
   padding: 1.5rem;
-  background-color: #393e46;
   border-radius: 0.5rem;
   text-decoration: none;
   tab-size: 4;
@@ -551,6 +556,7 @@ code {
   max-width: 280px;
   background-color: #dce6f2;
 }
+
 
 @media only screen and (max-width: 1380px) {
   .singleSpeaker {
@@ -933,6 +939,7 @@ code {
   border-radius: 0.5rem;
   display: flex;
   flex-direction: row;
+  height: 5rem;
 }
 
 .sponsoricon {
@@ -941,18 +948,23 @@ code {
   border-radius: 100%;
   margin-top: auto;
 }
+.sponsoricons {
+
+  height: 2.5rem;
+  width:auto;
+  margin: auto;
+}
 
 
 
 .sponsorwriting {
   font-size: 1.2rem;
   text-align: center;
-  margin-top: 0.5rem;
   max-width: 12rem;
-  margin-left: auto;
-  margin-right: auto;
+  margin:auto;
   color: #020c16;
   padding: 0.5rem;
+  font-weight: 600;
 }
 
 @media only screen and (max-width: 1200px) {
