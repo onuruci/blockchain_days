@@ -953,6 +953,13 @@ code {
   margin: auto;
 }
 
+.lsponsoricons {
+  height: 3.5rem;
+}
+.vlsponsoricons {
+  height: 4.5rem;
+}
+
 .sponsorwriting {
   font-size: 1.2rem;
   text-align: center;
