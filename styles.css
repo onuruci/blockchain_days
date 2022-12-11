@@ -33,6 +33,7 @@ code {
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Outfit:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700;800;900&display=swap");
 .App {
   line-height: 1.5;
   tab-size: 4;
@@ -492,6 +493,11 @@ code {
 }
 
 #speakers {
+  margin-top: -2rem;
+  padding-left: 1rem;
+}
+
+#team {
   margin-top: -2rem;
   padding-left: 1rem;
 }
@@ -1045,5 +1051,123 @@ code {
     margin-right: auto;
     margin-top: -7px;
     font-size: 1rem;
+  }
+}
+
+.teamwrapper {
+  width: 100%;
+  display: grid;
+  gap: 1rem;
+  margin-top: 3rem;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 2em;
+  column-gap: 2em;
+  align-items: center;
+  justify-content: center;
+}
+
+.teammember {
+  padding: 1rem 0rem;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.teamphotowrapper {
+  margin: 1rem auto;
+  width: 9rem;
+  height: 9rem;
+  cursor: pointer;
+}
+
+.teamphoto {
+  border-radius: 100%;
+  width: 9rem;
+  border: solid 4px rgb(228, 228, 231);
+}
+
+.team_member_name {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-align: center;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.teamduty {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-family: monospace;
+  text-align: center;
+}
+
+.team_contact_div {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.team_contact_button {
+  width: 1.4rem;
+  height: 1.4rem;
+  padding: 0.3rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  border-radius: 100%;
+  background-color: white;
+  border: 0.1rem solid black;
+  cursor: pointer;
+}
+
+.contact_icon {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ghicon {
+  padding: 0;
+}
+
+@media only screen and (max-width: 1100px) {
+  .teamwrapper {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 6em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .teammember {
+    padding: 1rem 0rem;
+  }
+  .teamphotowrapper {
+    width: 9rem;
+    height: 9rem;
+  }
+  .teamwrapper {
+    padding: 0.5rem 0rem;
+    row-gap: 1rem;
+  }
+  .teamphoto {
+    width: 9rem;
+  }
+  .team_member_name {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+  .teamduty {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .teamphotowrapper {
+    width: 7rem;
+    height: 7rem;
+  }
+  .teamphoto {
+    width: 7rem;
   }
 }
