@@ -1196,11 +1196,16 @@ code {
 }
 
 .gold_sponsor {
-  background-color: #d9bf62;
+  background-color: #FFD700;
 }
 
 .silver_sponsor {
-  background-color: #9b9eb1;
+  background-color: #C0C0C0;
+  
+}
+
+.bronze_sponsor {
+  background-color: #967444;
 }
 
 .spsexp {
@@ -1216,11 +1221,15 @@ code {
 }
 
 .gold_sp_writing {
-  color: #d9bf62;
+  color: #FFD700;
 }
 
 .silver_sp_writing {
-  color: #9b9eb1;
+  color: #C0C0C0;
+}
+
+.bronze_sp_writing {
+  color: #967444;
 }
 
 @media only screen and (max-width: 720px) {
