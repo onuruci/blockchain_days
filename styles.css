@@ -799,7 +799,8 @@ code {
   margin-right: auto;
   max-width: 800px;
   max-height: 300px;
-  margin-top: 6rem;
+  margin-top: 7rem;
+  position: relative;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -813,7 +814,7 @@ code {
 
   .spons {
     max-width: 600px;
-    margin-top: 4rem;
+    margin-top: 6rem;
   }
 }
 
@@ -828,7 +829,7 @@ code {
 
   .spons {
     max-width: 400px;
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
 }
 
@@ -1169,5 +1170,70 @@ code {
   }
   .teamphoto {
     width: 7rem;
+  }
+}
+
+.sponsor_bd_logo_wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  left: 46%;
+  top: -1.2rem;
+  right: auto;
+  position: absolute;
+  padding: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 100%;
+}
+
+.sponsor_bd_logo {
+  width: 2rem;
+  height: 2rem;
+}
+
+.main_sponsor {
+  background-color: #ad8df2;
+}
+
+.gold_sponsor {
+  background-color: #d9bf62;
+}
+
+.silver_sponsor {
+  background-color: #9b9eb1;
+}
+
+.spsexp {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.8rem;
+  font-family: "Outfit";
+}
+
+.main_sp_writing {
+  color: #ad8df2;
+}
+
+.gold_sp_writing {
+  color: #d9bf62;
+}
+
+.silver_sp_writing {
+  color: #9b9eb1;
+}
+
+@media only screen and (max-width: 720px) {
+  .sponsor_bd_logo_wrapper {
+    left: 44%;
+  }
+  .spsexp {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .sponsor_bd_logo_wrapper {
+    left: 41.6%;
   }
 }
