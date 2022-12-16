@@ -1176,7 +1176,7 @@ code {
 .sponsor_bd_logo_wrapper {
   margin-left: auto;
   margin-right: auto;
-  left: 46%;
+  left: 47%;
   top: -1.2rem;
   right: auto;
   position: absolute;
@@ -1196,12 +1196,11 @@ code {
 }
 
 .gold_sponsor {
-  background-color: #FFD700;
+  background-color: #ffd700;
 }
 
 .silver_sponsor {
-  background-color: #C0C0C0;
-  
+  background-color: #c0c0c0;
 }
 
 .bronze_sponsor {
@@ -1221,11 +1220,11 @@ code {
 }
 
 .gold_sp_writing {
-  color: #FFD700;
+  color: #ffd700;
 }
 
 .silver_sp_writing {
-  color: #C0C0C0;
+  color: #c0c0c0;
 }
 
 .bronze_sp_writing {
