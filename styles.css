@@ -377,6 +377,21 @@ code {
   }
 }
 
+#workshops {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #7091d4;
+  font-family: "Outfit", "sans-serif";
+  tab-size: 4;
+}
+
+@media only screen and (max-width: 900px) {
+  #workshops {
+    padding: 1rem;
+  }
+}
+
 .scheduleSection {
   display: flex;
   flex-direction: row;
